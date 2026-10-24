@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Monochrome/themed-icon variant: single-colour stopwatch line art. -->
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+
+    <!-- Case ring -->
+    <path
+        android:strokeColor="#FFFFFFFF"
+        android:strokeWidth="5"
+        android:fillColor="#00000000"
+        android:pathData="M32,56 A22,22 0 1 0 76,56 A22,22 0 1 0 32,56 Z" />
+
+    <!-- Crown -->
+    <path
+        android:fillColor="#FFFFFFFF"
+        android:pathData="M52,22 L56,22 A2,2 0 0 1 58,24 L58,31 A2,2 0 0 1 56,33 L52,33 A2,2 0 0 1 50,31 L50,24 A2,2 0 0 1 52,22 Z" />
+
+    <!-- Hand -->
+    <path
+        android:strokeColor="#FFFFFFFF"
+        android:strokeWidth="4"
+        android:strokeLineCap="round"
+        android:fillColor="#00000000"
+        android:pathData="M54,56 L66,45" />
+
+    <!-- Centre hub -->
+    <path
+        android:fillColor="#FFFFFFFF"
+        android:pathData="M51,56 A3,3 0 1 0 57,56 A3,3 0 1 0 51,56 Z" />
+</vector>

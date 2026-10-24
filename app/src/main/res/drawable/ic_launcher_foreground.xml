@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  Interval Timer launcher foreground: a white stopwatch with a teal progress
+  arc, crown button and hand. Content stays inside the adaptive-icon safe zone.
+-->
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+
+    <!-- Stopwatch case ring (white) -->
+    <path
+        android:strokeColor="#FFFFFFFF"
+        android:strokeWidth="5"
+        android:fillColor="#00000000"
+        android:pathData="M32,56 A22,22 0 1 0 76,56 A22,22 0 1 0 32,56 Z" />
+
+    <!-- Elapsed progress arc (teal), 270° clockwise from the top -->
+    <path
+        android:strokeColor="#FF1DE9B6"
+        android:strokeWidth="5.5"
+        android:strokeLineCap="round"
+        android:fillColor="#00000000"
+        android:pathData="M54,34 A22,22 0 1 1 32,56" />
+
+    <!-- Crown / start button on top -->
+    <path
+        android:fillColor="#FFFFFFFF"
+        android:pathData="M52,22 L56,22 A2,2 0 0 1 58,24 L58,31 A2,2 0 0 1 56,33 L52,33 A2,2 0 0 1 50,31 L50,24 A2,2 0 0 1 52,22 Z" />
+
+    <!-- Hand -->
+    <path
+        android:strokeColor="#FFFFFFFF"
+        android:strokeWidth="4"
+        android:strokeLineCap="round"
+        android:fillColor="#00000000"
+        android:pathData="M54,56 L66,45" />
+
+    <!-- Centre hub -->
+    <path
+        android:fillColor="#FFFFFFFF"
+        android:pathData="M51,56 A3,3 0 1 0 57,56 A3,3 0 1 0 51,56 Z" />
+</vector>
